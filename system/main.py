@@ -29,8 +29,7 @@ def run(args):
     time_list = []
     # reporter = MemReporter()
     model_str = args.model
-    # wandb.login(key="8c3d85ea588e89f974863dd8eced94405115f2dc")
-    # wandb.init(project="llm_experiment", name=args.experiment_name)
+   
 
     for i in range(args.prev, args.times):
         print(f"\n============= Running time: {i}th =============")
